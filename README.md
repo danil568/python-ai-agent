@@ -1,2 +1,23 @@
-# python-ai-agent
-AI agent with tools: weather, calculator, time. Built with Python and OpenRouter API
+# Python AI Agent
+
+AI-агент с инструментами, построенный на Python и OpenRouter API.
+
+## Что умеет агент
+
+- 🕐 **Время** — отвечает на вопрос "который час?"
+- 🔢 **Калькулятор** — вычисляет математические выражения
+- 🌤 **Погода** — показывает текущую погоду в любом городе
+
+## Технологии
+
+- Python 3
+- OpenRouter API (бесплатные LLM модели)
+- Tool Use / Function Calling
+
+## Как запустить
+
+1. Установи зависимости: `pip install requests`
+2. Вставь свой OpenRouter API ключ в `agent.py`
+3. Запусти: `python agent.py`
+
+## Пример работы
